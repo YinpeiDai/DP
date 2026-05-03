@@ -111,7 +111,7 @@ PYTHONPATH=$(pwd) python scripts/train.py --config-name=train_dp_unet \
 ## Pre-trained Checkpoint
 
 An early checkpoint (`obs_horizon=1`, 200k steps) is available on HuggingFace:
-[oldTOM/RoboMME_DP]([oldTOM/RoboMME_DP](https://huggingface.co/oldTOM/RoboMME_DP/tree/main))
+[oldTOM/RoboMME_DP]([oldTOM/RoboMME_DP](https://huggingface.co/oldTOM/RoboMME_DP))
 
 The baseline DP model trained with `obs_horizon=2`, `action_exec_horizon=8`, and `action_pred_horizon=16` (config: `train_dp_unet_obs2.yaml`) is coming soon.
 
